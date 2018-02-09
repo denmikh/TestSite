@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>TestSite</title>
+	<meta name="discription" content="Test Site">
+	<meta name="Keywords" content="Тестовый сайт">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<header>
+		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse ">
+			<a class="navbar-brand" href="#">TestSite</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+	</header>
+
+	<div id="wrapper">
+		<div class="container-fluid">
+			<div class="row flex-row-reverse">
+				<div class="col-xs-12 col-sm-3 col-md-3 bg-inverse sidebar">
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+						<a class="nav-link active" href="#">Overview <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Reports</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Analytics</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Export</a>
+						</li>
+					</ul>		  
+				</div>
+				<div id="content" class="col-xs-12 col-sm-9 col-md-9">
+					<h1>Content</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolore, exercitationem saepe omnis quibusdam ipsum culpa voluptatum, quam magni tenetur architecto minus facilis sapiente impedit libero tempora harum consequuntur? Necessitatibus.</p>
+					<a href class="btn btn-primary" data-toggle="sidebar">Toggle Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer bg-inverse">
+		<div class="container">
+		  <span class="text-muted">Place sticky footer content here.</span>
+		</div>
+	  </footer>
+    
+</body>
+</html>
