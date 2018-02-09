@@ -20,8 +20,11 @@
 <body>
 
 	<header>
-		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse ">
-			<a class="navbar-brand" href="#">TestSite</a>
+		<nav class="navbar navbar-toggleable-md  ">
+			<a class="navbar-brand" href="#">
+				<img src="https://fossies.org/linux/bootstrap/assets/img/favicons/mstile-70x70.png" width="50" height="50" alt="">
+				TestSite
+			</a>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
@@ -34,10 +37,7 @@
 					<a class="nav-link disabled" href="#">Disabled</a>
 					</li>
 				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="text" placeholder="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
+				<img class="float-right" src="https://icreative.com.ua/wp-content/themes/xt-corporate-lite/assets/img/ic%D0%BEn_3.png" width="50" height="50" alt="">
 			</div>
 		</nav>
 	</header>
@@ -45,36 +45,57 @@
 	<div id="wrapper">
 		<div class="container-fluid">
 			<div class="row flex-row-reverse">
-				<div class="col-xs-12 col-sm-3 col-md-3 bg-inverse sidebar">
+				<div class="col-xs-12 col-sm-4 col-md-3 sidebar">
 					<ul class="nav nav-pills flex-column">
+						<li class="nav-header">Sidebar-Navigation</li>  
+							<li class="nav-item">
+							<a class="nav-link" data-toggle="modal" data-target="#modal_auth" href="#">Modal Fade</a>
+							</li>
 						<li class="nav-item">
-						<a class="nav-link active" href="#">Overview <span class="sr-only">(current)</span></a>
+							<a class="nav-link active" href="#">Reports	</a>
+							<ul class="nav flex-column ml-2 hidden-down">
+								<li class="nav-item"><a href="#sec3a" class="nav-link">Section A</a></li>
+								<li class="nav-item"><a href="#sec3b" class="nav-link">Section B</a></li>
+							</ul>
 						</li>
 						<li class="nav-item">
-						<a class="nav-link" href="#">Reports</a>
+							<a class="nav-link" href="#">Analytics</a>
 						</li>
 						<li class="nav-item">
-						<a class="nav-link" href="#">Analytics</a>
-						</li>
-						<li class="nav-item">
-						<a class="nav-link" href="#">Export</a>
+							<a class="nav-link" href="#">Export</a>
 						</li>
 					</ul>		  
 				</div>
-				<div id="content" class="col-xs-12 col-sm-9 col-md-9">
+				<div id="content" class="col-xs-12 col-sm-8 col-md-9">
 					<h1>Content</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolore, exercitationem saepe omnis quibusdam ipsum culpa voluptatum, quam magni tenetur architecto minus facilis sapiente impedit libero tempora harum consequuntur? Necessitatibus.</p>
-					<a href class="btn btn-primary" data-toggle="sidebar">Toggle Menu</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta temporibus voluptatem, incidunt accusamus magnam nisi dolorum quaerat delectus esse cupiditate hic pariatur itaque tempore at, officiis similique veniam explicabo? Sapiente blanditiis perferendis repellendus quae adipisci sed minima, veniam, assumenda, vel officia expedita? Minima repellendus a autem neque, aspernatur tempore libero ducimus distinctio, nobis vitae, doloribus fuga magnam consequuntur. Explicabo amet officiis reprehenderit sit nesciunt nam! Omnis, deleniti nemo sit ipsa, quaerat amet quas inventore earum laborum asperiores maiores fugiat voluptatibus. Minus officiis laborum rem in dolores et, nihil quos asperiores illum distinctio beatae aspernatur nam, ad itaque magni delectus minima ipsam veniam aperiam, dolorum repudiandae sit. Eligendi vero cum, at maxime consequatur natus soluta odit fugiat doloribus veritatis praesentium magnam ea voluptatibus, alias beatae facilis unde! Tenetur commodi esse illo cumque dolor maiores omnis, iusto vitae aliquam distinctio eos quae sapiente at voluptate ipsa vel doloribus dolores explicabo libero? Illum explicabo, beatae sunt quas placeat id, cum provident! Delectus tempora eaque natus iusto repudiandae neque aut exercitationem voluptatem. Architecto natus asperiores accusantium a, saepe beatae, harum est ullam minima rerum, necessitatibus obcaecati odio dicta, commodi ut culpa recusandae eius! Cumque vel error culpa. Laudantium blanditiis sunt, magni velit hic quas alias dolorum deleniti odit quos aperiam perferendis facere a, aspernatur delectus corporis voluptatem perspiciatis numquam, culpa quidem praesentium maxime quae. Animi, eos nesciunt. Et perferendis officiis quo quasi, sunt nesciunt labore tenetur, esse velit voluptate veniam laudantium earum quibusdam ullam, atque, consectetur quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta temporibus voluptatem, incidunt accusamus magnam nisi dolorum quaerat delectus esse cupiditate hic pariatur itaque tempore at, officiis similique veniam explicabo? Sapiente blanditiis perferendis repellendus quae adipisci sed minima, veniam, assumenda, vel officia expedita? Minima repellendus a autem neque, aspernatur tempore libero ducimus distinctio, nobis vitae, doloribus fuga magnam consequuntur. Explicabo amet officiis reprehenderit sit nesciunt nam! Omnis, deleniti nemo sit ipsa, quaerat amet quas inventore earum laborum asperiores maiores fugiat voluptatibus. Minus officiis laborum rem in dolores et, nihil quos asperiores illum distinctio beatae aspernatur nam, ad itaque magni delectus minima ipsam veniam aperiam, dolorum repudiandae sit. Eligendi vero cum, at maxime consequatur natus soluta odit fugiat doloribus veritatis praesentium magnam ea voluptatibus, alias beatae facilis unde! Tenetur commodi esse illo cumque dolor maiores omnis, iusto vitae aliquam distinctio eos quae sapiente at voluptate ipsa vel doloribus dolores explicabo libero? Illum explicabo, beatae sunt quas placeat id, cum provident! Delectus tempora eaque natus iusto repudiandae neque aut exercitationem voluptatem. Architecto natus asperiores accusantium a, saepe beatae, harum est ullam minima rerum, necessitatibus obcaecati odio dicta, commodi ut culpa recusandae eius! Cumque vel error culpa. Laudantium blanditiis sunt, magni velit hic quas alias dolorum deleniti odit quos aperiam perferendis facere a, aspernatur delectus corporis voluptatem perspiciatis numquam, culpa quidem praesentium maxime quae. Animi, eos nesciunt. Et perferendis officiis quo quasi, sunt nesciunt labore tenetur, esse velit voluptate veniam laudantium earum quibusdam ullam, atque, consectetur quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta temporibus voluptatem, incidunt accusamus magnam nisi dolorum quaerat delectus esse cupiditate hic pariatur itaque tempore at, officiis similique veniam explicabo? Sapiente blanditiis perferendis repellendus quae adipisci sed minima, veniam, assumenda, vel officia expedita? Minima repellendus a autem neque, aspernatur tempore libero ducimus distinctio, nobis vitae, doloribus fuga magnam consequuntur. Explicabo amet officiis reprehenderit sit nesciunt nam! Omnis, deleniti nemo sit ipsa, quaerat amet quas inventore earum laborum asperiores maiores fugiat voluptatibus. Minus officiis laborum rem in dolores et, nihil quos asperiores illum distinctio beatae aspernatur nam, ad itaque magni delectus minima ipsam veniam aperiam, dolorum repudiandae sit. Eligendi vero cum, at maxime consequatur natus soluta odit fugiat doloribus veritatis praesentium magnam ea voluptatibus, alias beatae facilis unde! Tenetur commodi esse illo cumque dolor maiores omnis, iusto vitae aliquam distinctio eos quae sapiente at voluptate ipsa vel doloribus dolores explicabo libero? Illum explicabo, beatae sunt quas placeat id, cum provident! Delectus tempora eaque natus iusto repudiandae neque aut exercitationem voluptatem. Architecto natus asperiores accusantium a, saepe beatae, harum est ullam minima rerum, necessitatibus obcaecati odio dicta, commodi ut culpa recusandae eius! Cumque vel error culpa. Laudantium blanditiis sunt, magni velit hic quas alias dolorum deleniti odit quos aperiam perferendis facere a, aspernatur delectus corporis voluptatem perspiciatis numquam, culpa quidem praesentium maxime quae. Animi, eos nesciunt. Et perferendis officiis quo quasi, sunt nesciunt labore tenetur, esse velit voluptate veniam laudantium earum quibusdam ullam, atque, consectetur quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta temporibus voluptatem, incidunt accusamus magnam nisi dolorum quaerat delectus esse cupiditate hic pariatur itaque tempore at, officiis similique veniam explicabo? Sapiente blanditiis perferendis repellendus quae adipisci sed minima, veniam, assumenda, vel officia expedita? Minima repellendus a autem neque, aspernatur tempore libero ducimus distinctio, nobis vitae, doloribus fuga magnam consequuntur. Explicabo amet officiis reprehenderit sit nesciunt nam! Omnis, deleniti nemo sit ipsa, quaerat amet quas inventore earum laborum asperiores maiores fugiat voluptatibus. Minus officiis laborum rem in dolores et, nihil quos asperiores illum distinctio beatae aspernatur nam, ad itaque magni delectus minima ipsam veniam aperiam, dolorum repudiandae sit. Eligendi vero cum, at maxime consequatur natus soluta odit fugiat doloribus veritatis praesentium magnam ea voluptatibus, alias beatae facilis unde! Tenetur commodi esse illo cumque dolor maiores omnis, iusto vitae aliquam distinctio eos quae sapiente at voluptate ipsa vel doloribus dolores explicabo libero? Illum explicabo, beatae sunt quas placeat id, cum provident! Delectus tempora eaque natus iusto repudiandae neque aut exercitationem voluptatem. Architecto natus asperiores accusantium a, saepe beatae, harum est ullam minima rerum, necessitatibus obcaecati odio dicta, commodi ut culpa recusandae eius! Cumque vel error culpa. Laudantium blanditiis sunt, magni velit hic quas alias dolorum deleniti odit quos aperiam perferendis facere a, aspernatur delectus corporis voluptatem perspiciatis numquam, culpa quidem praesentium maxime quae. Animi, eos nesciunt. Et perferendis officiis quo quasi, sunt nesciunt labore tenetur, esse velit voluptate veniam laudantium earum quibusdam ullam, atque, consectetur quisquam.</p>
+					<img class="float-left col-md-6 img-fluid" src="https://cp-mlxprod-static.microsoft.com/012432-1000/en-us/thumbnail.png" width="100%">
+					<img class="float-left col-md-6 img-fluid" src="https://commons.bmstu.wiki/images/b/be/Linux-3_6.png"width="100%">
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<footer class="footer bg-inverse">
+	<footer class="footer navbar-fixed-bottom">
 		<div class="container">
 		  <span class="text-muted">Place sticky footer content here.</span>
 		</div>
 	  </footer>
-    
+	
+	<div id="modal_auth" class="modal fade" tabindex="-1">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+
+			<div class="modal-body">
+				<p>This is Modal Fade</p>
+			</div>
+			
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal">Закрыть</button>
+			</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
