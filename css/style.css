@@ -9,18 +9,12 @@ html {
 }
 
 body {
-<<<<<<< HEAD
   padding-top: 115px;
-=======
-  padding-top: 4.5rem;
-  margin-bottom: 60px;
->>>>>>> dbda6bbfc892fc076c694d89d0cba62d3aea23b7
   font-size: 1em;
   font-family: Comic Sans MS, sans-sefif;
   line-height: 135%;
 }
 
-<<<<<<< HEAD
 li a:hover {
   color: #ffe;
   background-color: #476e8d;
@@ -29,9 +23,6 @@ li a:hover {
 
 
 .navbar{
-=======
-.navbar, .sidebar, footer{
->>>>>>> dbda6bbfc892fc076c694d89d0cba62d3aea23b7
   background-color: rgb(223, 237, 248);
 }
 
