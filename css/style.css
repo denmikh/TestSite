@@ -5,17 +5,58 @@
 html {
   position: relative;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 body {
-  margin-bottom: 60px;
+  padding-top: 115px;
   font-size: 1em;
   font-family: Comic Sans MS, sans-sefif;
   line-height: 135%;
 }
 
-header, .sidebar, footer{
+li a:hover {
+  color: #ffe;
+  background-color: #476e8d;
+  border-radius: 4px;
+ }
+
+
+.navbar{
   background-color: rgb(223, 237, 248);
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+
+.navbar-container {
+  padding: 20px 0 20px 0;
+}
+
+.navbar.fixed-top.fixed-theme {
+  opacity: 0.9;
+  background-color: rgb(183, 196, 206);
+  border-color: #080808;
+  box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+  font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+  padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
 }
 
 header {
@@ -27,6 +68,11 @@ header {
   margin-top:20px;
   margin-bottom:80px;
 }
+
+.sidebar, footer{
+  background-color: rgb(223, 237, 248);
+}
+
 
 .sidebar {
   border-radius: 15px; 
